@@ -1,0 +1,49 @@
+h1 {
+    color:black;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+}
+
+#main {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+}
+
+#contact-button, button {
+    border: none;
+    background-color:green;
+    border-color: green;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.5em;;
+}
+
+input[type="text"], select, textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+
+legend {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+}
+
+fieldset {
+    padding: 1em;
+}
+
+
+

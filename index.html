@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ice Cream Order Form</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images\icecreamicon.png">
+        <link rel="stylesheet" href="styles/styles.css">
+
+    </head>
+    <body>
+        <div id="main">
+            <header>
+            <h1>Ice Cream Order Form</h1>
+            </header>
+            <!-- Form -->
+            <form action="thankyou.html" method="get">
+                <!-- Personal Information  -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>Name:</label>
+                    <input type="text" name="name">
+                    
+                    <label>Email:</label>
+                    <input type="text" name="email">
+                    
+                </fieldset>
+                <!-- Order Details -->
+                <fieldset>
+                    <legend>Order Details</legend>
+                    <!-- flavor -->
+                    <div id="flavor">
+                        <p>Choose your flavor:</p>
+                        <select name="flavor" id="flavor`">
+                            <option value="vanilla">Vanilla</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="strawberry">Strawberry</option>
+                            <option value="cookiesandcream">Cookies & Cream</option>
+                        </select>
+                    </div>
+                    <!-- radio buttons cone type -->
+                    <div id="cone">
+                        <p>Choose your cone:</p>
+                        <label>
+                            <input type="radio" name="waffleCone" value="waffleCone">Pickup
+                        </label>
+                        <label>
+                            <input type="radio" name="SugarCone" value="SugarCone">Delivery
+                        </label>
+                        <label>
+                            <input type="radio" name="Cup" value="Cup">Delivery
+                        </label>
+                    </div>
+                        
+                    <div id="toppings">
+                        <p>Toppings:</p>
+                        <label>
+                            <input type="checkbox" name="toppings" value="sprinkles">Sprinkles
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="nuts">Nuts
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="cherry">Cherry
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="whippedcream">Whipped Cream
+                        </label>
+                    </div>
+                    <div id="comments">
+                        <p>Additional comments:</p>
+                        <textarea id="commentsbox" name="commentsbox" rows="4" cols="50">
+
+                        </textarea>
+                    </div>
+                </fieldset>
+                <!-- Place order button -->
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </body>
+</html>
